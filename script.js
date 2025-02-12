@@ -6,7 +6,6 @@ var tl = gsap.timeline({
         start: '0% 95%',
         end: '70% 50%',
         scrub: true,
-        markers: true, //DEPURAÇÃO
     },
 });
 
@@ -68,7 +67,6 @@ var tl2 = gsap.timeline({
         start: '0% 95%',
         end: '20% 50%', //FIM DA ANIMAÇÃO (TOPO DA TELA ATINGE 50% DA ALTURA QUANDO ESTIVER 20% DA SESSÃO .THREE)
         scrub: true,
-        markers: true, //DEPURAÇÃO
     },
 });
 
